@@ -435,14 +435,16 @@ Ship = function () {
     }
   };
 
+  /* We are now immortal 😎*/
+
   this.collision = function (other) {
-    SFX.explosion();
+   /* SFX.explosion();
     Game.explosionAt(other.x, other.y);
     Game.FSM.state = 'player_died';
     this.visible = false;
     this.currentNode.leave(this);
     this.currentNode = null;
-    Game.lives--;
+    Game.lives--;*/
   };
 
 };
